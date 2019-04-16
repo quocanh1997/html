@@ -1,0 +1,137 @@
+body{
+  background-image: url('img/gd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+ 
+}
+#menu li {
+  color: white;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+#text{
+  color: yellow;
+  font-size: 80px;
+  text-align: center;
+  animation-name: text;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+@keyframes text {
+  from {margin-top: 2%; color: yellow;}
+  to {margin-top: 13%; color: green;font-style: italic;}
+}
+#mypro .all #picture{
+  width:300px; 
+  height:250px;
+  margin-left: 15%;
+  border-style: solid;
+  border-color: red;
+  background-color: white;
+  margin-top: 10%;
+  float: left;
+  border-width: 4px;
+  border-radius: 4px;
+  animation-name: mypicture;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+@keyframes mypicture {
+  from {margin-top: 10%; border-color: red}
+  to {margin-top: 10%; border-color: green;border-style: dashed;}
+}
+#information{
+  font-size: 20px;
+  margin-left: 55%;
+  top: 5%;
+  color: blue;
+  position: relative;
+  animation-name: myinform;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+@keyframes myinform {
+  from {margin-top: 5%;}
+  to {margin-top: 18%; color: green;font-style: bold;}
+}
+#father .all #picture{
+  width:300px; 
+  height:300px;
+  margin-left: 15%;
+  border-style: solid;
+  border-color: red;
+  margin-top: 6%;
+  float: left;
+  border-radius: 50%;
+  border-width: 4px;
+  position: relative;
+  animation-name: picture;
+  animation-duration: 8s;
+}
+@keyframes picture {
+  0%   {border-color:red; left:0px; top:0px;}
+  25%  {border-color:yellow; left:200px; top:0px;}
+  50%  {border-color:red; left:0px; top:0px;}
+}
+#fatherinform{
+  font-size: 20px;
+  margin-left: 55%;
+  margin-top: 15%;
+  color: red;
+  position: relative;
+  animation-name: inform;
+  animation-duration: 8s;
+}
+@keyframes inform {
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:brown; left:200px; top:0px;}
+  50%  {color:red; left:0px; top:0px;}
+}
+#mother .all #picture{
+  width:300px; 
+  height:300px;
+  margin-left: 15%;
+  border-style: solid;
+  border-color: red;
+  margin-top: 6%;
+  float: left;
+  border-radius: 20%;
+  border-width: 4px;
+  animation-name: mopic;
+  animation-duration: 8s;
+  transform: rotate(360deg);
+}
+@keyframes mopic {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(360deg);}
+}
+#motherinform{
+  font-size: 20px;
+  margin-left: 55%;
+  margin-top: 15%;
+  color: green;
+  animation-name: moinf;
+  animation-duration: 8s;
+  transform: rotateY(360deg);
+}
+@keyframes moinf {
+  0%   {transform: rotateY(0deg);}
+  50%  {transform: rotateY(360deg);}
+}
